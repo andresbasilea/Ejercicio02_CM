@@ -1,3 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Ejercicio02_CM</string>
+    <string name="app_name" translatable="false">Ejercicio02_cm</string>
+
+
+    <string name="Autor" translatable="false">Andrés José Basile Álvarez</string>
+
+    <string name="Version">Versión 1.0</string>
+
+
+
 </resources>

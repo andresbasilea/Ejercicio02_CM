@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="slytherinsilver">#aaaaaa</color>
+    <color name="hufflepuff">#ecb939</color>
+    <color name="griffindor">#740001 </color>
+    <color name="retro1">#1B9C85</color>
+    <color name="retro2">#E8F6EF</color>
+    <color name="retro3">#FFE194</color>
+    <color name="color_normal">#4C4C6D</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<!--    <color name="color_normal">#115b6b</color>-->
 </resources>
