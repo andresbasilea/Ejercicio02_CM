@@ -15,6 +15,8 @@ class HPAdapter(private var context: Context, private var characters: ArrayList<
         val ivImage = view.ivImage
         val tvNombrePersonaje = view.tvNombrePersonaje
         val tvActor = view.tvActor
+        val tvDateOfBirth = view.tvDateOfBirth
+        val tvHouse = view.tvHouse
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -27,6 +29,8 @@ class HPAdapter(private var context: Context, private var characters: ArrayList<
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.tvNombrePersonaje.text = characters[position].name
         holder.tvActor.text = characters[position].actor
+        holder.tvDateOfBirth.text = characters[position].dateOfBirth
+        holder.tvHouse.text = characters[position].house
 
         Glide.with(context)
             .load(characters[position].image)

@@ -12,4 +12,9 @@ data class Character (
     var name: String?,
     @SerializedName("actor")
     var actor: String?,
+    @SerializedName("dateOfBirth")
+    var dateOfBirth: String?,
+    @SerializedName("house")
+    var house: String?,
+
     )

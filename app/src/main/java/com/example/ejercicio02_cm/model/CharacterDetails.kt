@@ -26,11 +26,14 @@ data class CharacterDetails(
     @SerializedName("species")
     var species: String?,
 
+    @SerializedName("dateOfBirth")
+    var dateOfBirth: String?,
+
 
     @SerializedName("ancestry")
     var ancestry: String?,
 
-    @SerializedName("ancestry")
+    @SerializedName("eyeColour")
     var eyeColour: String?,
 
 
