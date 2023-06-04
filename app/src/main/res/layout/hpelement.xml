@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="@+id/tvNombrePersonaje" />
 
     <com.makeramen.roundedimageview.RoundedImageView
-        android:id="@+id/ivThumbnail"
+        android:id="@+id/ivImage"
         android:layout_width="70dp"
         android:layout_height="110dp"
         android:layout_marginStart="5dp"
@@ -90,7 +90,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/harrypotter"
         android:includeFontPadding="false"
-        android:text="Griffindor"
+        android:text="Gryffindor"
         android:textColor="@color/retro2"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

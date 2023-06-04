@@ -6,7 +6,7 @@
     <string name="Autor" translatable="false">Andrés José Basile Álvarez</string>
 
     <string name="Version">Versión 1.0</string>
-
+    <string name="connectionerror">Fallo en la conexión</string>
 
 
 </resources>

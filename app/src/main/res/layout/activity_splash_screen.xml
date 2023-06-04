@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@color/griffindor"
-    tools:context=".SplashScreen">
+    tools:context=".view.activities.SplashScreen">
 
     <TextView
         android:id="@+id/textView"

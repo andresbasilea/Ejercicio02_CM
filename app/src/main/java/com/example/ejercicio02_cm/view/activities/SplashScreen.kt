@@ -1,4 +1,4 @@
-package com.example.ejercicio02_cm
+package com.example.ejercicio02_cm.view.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -16,7 +16,7 @@ class SplashScreen : AppCompatActivity() {
         supportActionBar?.hide()
         setContentView(binding.root)
         thread{
-            Thread.sleep(2000)
+            Thread.sleep(1500)
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
