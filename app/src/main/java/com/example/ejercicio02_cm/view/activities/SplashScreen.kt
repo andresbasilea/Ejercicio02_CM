@@ -17,7 +17,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(binding.root)
         thread{
             Thread.sleep(1500)
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ChooseStudentStaff::class.java)
             startActivity(intent)
             finish()
         }

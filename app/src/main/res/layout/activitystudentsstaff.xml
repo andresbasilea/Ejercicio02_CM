@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/retro2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonStudents"-->
+    <!--        android:layout_width="133dp"-->
+    <!--        android:layout_height="93dp"-->
+    <!--        android:background="@color/griffindor"-->
+    <!--        tools:layout_editor_absoluteX="262dp"-->
+    <!--        tools:layout_editor_absoluteY="460dp"-->
+    <!--        tools:text="@string/students_button" />-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.856"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.84" />-->
+
+
+
+    <Button
+        android:id="@+id/buttonStaff"
+        android:layout_width="177dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/griffindor"
+        android:fontFamily="@font/harrypotter"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:onClick="sendtostaff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStudents"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        android:text="@string/staff_button" />
+
+    <Button
+        android:id="@+id/buttonStudents"
+        android:layout_width="164dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/griffindor"
+        android:fontFamily="@font/harrypotter"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:onClick="sendtostudents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741"
+        android:text="@string/students_button" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView3"
+        android:layout_width="330dp"
+        android:layout_height="329dp"
+        android:src="@drawable/harrypotterstudentstaffgif2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

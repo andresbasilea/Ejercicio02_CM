@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +15,9 @@
         android:theme="@style/Theme.Ejercicio02_CM"
         tools:targetApi="31">
         <activity
+            android:name=".view.activities.ChooseStudentStaff"
+            android:exported="false" />
+        <activity
             android:name=".view.activities.SplashScreen"
             android:exported="true">
             <intent-filter>
@@ -27,6 +29,7 @@
         <activity
             android:name=".view.activities.MainActivity"
             android:exported="false" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

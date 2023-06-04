@@ -2,4 +2,6 @@
 <resources>
     <string name="Version">Version 1.0</string>
     <string name="connectionerror">Failed connection</string>
+    <string name="students_button">Students</string>
+    <string name="staff_button">Staff</string>
 </resources>
