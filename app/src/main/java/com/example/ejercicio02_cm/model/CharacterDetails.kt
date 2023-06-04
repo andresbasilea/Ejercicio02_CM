@@ -33,11 +33,15 @@ data class CharacterDetails(
     @SerializedName("ancestry")
     var ancestry: String?,
 
+    @SerializedName("patronus")
+    var patronus: String?,
+
     @SerializedName("eyeColour")
     var eyeColour: String?,
 
     ) : Parcelable{
     constructor(parcel: Parcel) : this(
+        parcel.readString(),
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
@@ -61,6 +65,7 @@ data class CharacterDetails(
         parcel.writeString(species)
         parcel.writeString(dateOfBirth)
         parcel.writeString(ancestry)
+        parcel.writeString(patronus)
         parcel.writeString(eyeColour)
     }
 

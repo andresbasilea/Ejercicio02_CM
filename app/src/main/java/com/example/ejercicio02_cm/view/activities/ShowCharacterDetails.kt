@@ -33,6 +33,7 @@ class ShowCharacterDetails : AppCompatActivity() {
             binding.tvEyeColour.text = "${getString(R.string.eyeColour)} : ${ it.eyeColour}"
             binding.tvSpecies.text = "${getString(R.string.species)} : ${ it.species}"
             binding.tvAncestry.text = "${getString(R.string.ancestry)} : ${ it.ancestry}"
+            binding.tvPatronus.text = "${getString(R.string.patronus)} : ${ it.patronus}"
 
             Glide.with(this)
                 .load(it.image)
