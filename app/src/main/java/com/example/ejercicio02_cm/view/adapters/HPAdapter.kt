@@ -4,12 +4,11 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.Glide
 import com.example.ejercicio02_cm.databinding.HpelementBinding
-import com.example.ejercicio02_cm.model.Character
+import com.example.ejercicio02_cm.model.CharacterDetails
 
-class HPAdapter(private var context: Context, private var characters: ArrayList<Character>): RecyclerView.Adapter<HPAdapter.ViewHolder>() {
+class HPAdapter(private var context: Context, private var characters: ArrayList<CharacterDetails>): RecyclerView.Adapter<HPAdapter.ViewHolder>() {
 
     class ViewHolder(view: HpelementBinding): RecyclerView.ViewHolder(view.root){
         val ivImage = view.ivImage
@@ -17,7 +16,36 @@ class HPAdapter(private var context: Context, private var characters: ArrayList<
         val tvActor = view.tvActor
         val tvDateOfBirth = view.tvDateOfBirth
         val tvHouse = view.tvHouse
+
+
     }
+
+    //
+
+    interface OnItemClickListener{
+        fun onItemClick(character: CharacterDetails)
+    }
+
+    private var listener: OnItemClickListener? = null
+
+    fun setOnItemClickListener(listener: OnItemClickListener){
+        this.listener = listener
+    }
+
+
+
+
+
+
+
+
+
+    //
+
+
+
+
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = HpelementBinding.inflate(LayoutInflater.from(context))
@@ -37,6 +65,7 @@ class HPAdapter(private var context: Context, private var characters: ArrayList<
             .into(holder.ivImage)
 
         holder.itemView.setOnClickListener {
+            listener?.onItemClick(characters[position])
         }
     }
 

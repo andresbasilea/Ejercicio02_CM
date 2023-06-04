@@ -21,8 +21,8 @@
 
     <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/ivImage"
-        android:layout_width="151dp"
-        android:layout_height="220dp"
+        android:layout_width="172dp"
+        android:layout_height="266dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:scaleType="centerCrop"
@@ -44,13 +44,13 @@
         android:includeFontPadding="false"
         android:paddingTop="8dp"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@+id/guideline7"
-        app:layout_constraintVertical_bias="0.788"
+        app:layout_constraintVertical_bias="0.931"
         tools:text="Harry Potter" />
 
     <TextView
@@ -64,7 +64,7 @@
         android:includeFontPadding="false"
         tools:text="Daniel Radcliffe"
         android:textColor="@color/retro1"
-        android:textSize="14sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
@@ -81,7 +81,7 @@
         android:includeFontPadding="false"
         tools:text="31-07-1980"
         android:textColor="@color/retro3"
-        android:textSize="12sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintBottom_toBottomOf="@id/guideline4"
@@ -98,7 +98,7 @@
         android:includeFontPadding="false"
         tools:text="Gryffindor"
         android:textColor="@color/retro2"
-        android:textSize="14sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@id/guideline4"
@@ -115,7 +115,7 @@
         android:includeFontPadding="false"
         tools:text="EyeColour"
         android:textColor="@color/retro1"
-        android:textSize="14sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@id/guideline3"
@@ -132,7 +132,7 @@
         android:includeFontPadding="false"
         tools:text="Species"
         android:textColor="@color/retro3"
-        android:textSize="14sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@id/guideline9"
@@ -149,13 +149,11 @@
         android:includeFontPadding="false"
         tools:text="Ancestry"
         android:textColor="@color/retro2"
-        android:textSize="14sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@id/guideline10"
         app:layout_constraintBottom_toBottomOf="@id/guideline12"/>
-
-
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -163,63 +161,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="515dp" />
+        app:layout_constraintGuide_begin="686dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="260dp" />
+        app:layout_constraintGuide_begin="399dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="220dp" />
+        app:layout_constraintGuide_begin="313dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="180dp" />
+        app:layout_constraintGuide_begin="217dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="140dp" />
+        app:layout_constraintGuide_begin="117dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="73dp" />
+        app:layout_constraintGuide_begin="16dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="300dp" />
+        app:layout_constraintGuide_begin="483dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="340dp" />
+        app:layout_constraintGuide_begin="578dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="380dp" />
+        app:layout_constraintGuide_begin="658dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"

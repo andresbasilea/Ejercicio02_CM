@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Ejercicio02_CM"
         tools:targetApi="31">
         <activity
+            android:name=".view.activities.ShowCharacterDetails"
+            android:exported="false" />
+        <activity
             android:name=".view.activities.ChooseStudentStaff"
             android:exported="false" />
         <activity

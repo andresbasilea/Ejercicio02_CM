@@ -1,7 +1,6 @@
 package com.example.ejercicio02_cm.network
 
 
-import com.example.ejercicio02_cm.model.Character
 import com.example.ejercicio02_cm.model.CharacterDetails
 import retrofit2.Call
 import retrofit2.http.GET
@@ -18,7 +17,7 @@ interface HPAPI {
     @GET
     fun getCharacters(
         @Url url:String?
-    ): Call<ArrayList<Character>>
+    ): Call<ArrayList<CharacterDetails>>
 
     @GET("api/character/{id}")
     fun getCharacterDetails(
