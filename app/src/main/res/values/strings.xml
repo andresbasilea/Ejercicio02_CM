@@ -6,7 +6,7 @@
     <string name="Autor" translatable="false">Andrés José Basile Álvarez</string>
 
     <string name="Version">Versión 1.0</string>
-    <string name="connectionerror">Fallo en la conexión</string>
+    <string name="connectionerror">"Fallo en la conexión. Por favor revise su conexión a internet y/o vuelva a intentarlo. "</string>
     <string name="students_button">Estudiantes</string>
     <string name="staff_button">Staff</string>
     <string name="actor">Actor</string>

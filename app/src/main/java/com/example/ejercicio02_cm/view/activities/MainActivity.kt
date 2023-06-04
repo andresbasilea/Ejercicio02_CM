@@ -123,6 +123,7 @@ class MainActivity : AppCompatActivity(), HPAdapter.OnItemClickListener {
                     binding.pbRecyclerView.visibility = View.GONE
                     Toast.makeText(this@MainActivity, R.string.connectionerror, Toast.LENGTH_LONG)
                         .show()
+
                 }
 
             })

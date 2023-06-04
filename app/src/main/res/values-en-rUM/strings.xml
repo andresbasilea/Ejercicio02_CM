@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Version">Version 1.0</string>
-    <string name="connectionerror">Failed connection</string>
+    <string name="connectionerror">Failed connection. Please check your connection and/or try again.</string>
     <string name="students_button">Students</string>
     <string name="staff_button">Staff</string>
     <string name="actor">Actor</string>
